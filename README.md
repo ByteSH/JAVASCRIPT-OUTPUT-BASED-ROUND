@@ -4,7 +4,9 @@
 #### Click :star: if you like it!!
 Every contribution counts, no matter how small. Join me on this exciting journey of open-source collaboration and learning. Together, let's build something amazing! 🚀
 ---
-
+---
+</br>
+</br>
 
 **1. What will be the output**
 ```js
