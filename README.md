@@ -1,4 +1,5 @@
-# JavaScript Output Based Interview Questions 
+# JAVASCRIPT-OUTPUT-BASED-ROUND
+
 ---
 
 #### Click :star: if you like it!!
