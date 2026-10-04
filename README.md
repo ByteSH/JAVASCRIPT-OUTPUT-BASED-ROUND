@@ -620,27 +620,6 @@ console.log(var1, var2);
 
 **36. What will be the output**
 ```js
-const user = { 
-	name: "Surbhi dighe", 
-	country: "India" 
-};
-const { name: fullname, country } = user;
-console.log(fullname);
-console.log(name);
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>	
-	<li><b>Output</b> : Surbhi Dighe, ReferenceError: name is not defined</li>
-	<li><b>Reason for console.log(fullname)</b> : The name property from user is assigned to a local variable fullname.</li>
-	<li><b>Reason for console.log(name)</b> : It gives an error because name was assigned to a local variable fullname and therefore name is not directly accessible.</li>
-</ul>
-</details>
-
-**[:top: Scroll to Top](#javascript-output-based-interview-questions)**
-
-**37. What will be the output**
-```js
 const person = {
   firstName: 'Surbhi',
 };
@@ -657,7 +636,7 @@ console.log(lastName);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**38. What will be the output**
+**37. What will be the output**
 ```js
 const person = {
   firstName: 'Surbhi',
@@ -675,7 +654,7 @@ console.log(firstName);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**39. What will be the output**
+**38. What will be the output**
 ```js
 var a = 10;
 let a = 20;
@@ -691,7 +670,7 @@ console.log(a)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**40. What will be the output**
+**39. What will be the output**
 ```js
 const arr = ["A","B","C","D","E"]
 console.log(Object.keys(arr)); 
@@ -706,7 +685,7 @@ console.log(Object.keys(arr));
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**41. What will be the output**
+**40. What will be the output**
 ```js
 function modify(obj) {
     obj.name = "Updated";
@@ -731,8 +710,7 @@ console.log(person.name);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-
-**42. What will be the output**
+**41. What will be the output**
 ```js
 let a={ x:1, y: {alpha:10,beta:20} };
 let b = {...a};
@@ -753,8 +731,7 @@ console.log(a.y.alpha);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-
-**43. What will be the output**
+**42. What will be the output**
 ```js
 console.log('Start');
 
@@ -778,7 +755,7 @@ console.log('End');
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**44. What will be the output**
+**43. What will be the output**
 ```js
 var array = [1,2,3,4,5];
 delete array[2];
@@ -794,7 +771,7 @@ console.log(array.length);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**45. What will be the output**
+**44. What will be the output**
 ```js
 let x = ["a","b","c"];
 let y = ["a","b","c"];
@@ -816,7 +793,7 @@ console.log(z == x);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**46. What will be the output**
+**45. What will be the output**
 ```js
 let x; 
 console.log(x);
@@ -837,7 +814,7 @@ console.log(x);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**47. What will be the output**
+**46. What will be the output**
 ```js
 let text;
 switch (1) {
@@ -864,7 +841,7 @@ console.log(text);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**48. What will be the output**
+**47. What will be the output**
 ```js
 const user = {
     name: 'Aman Bhoria!',
@@ -884,7 +861,7 @@ setTimeout(user.logMessage, 1000);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**49. What will be the output**
+**48. What will be the output**
 ```js
 const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 3, c: 4 };
@@ -902,7 +879,7 @@ console.log(finalObj);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**50. What will be the output**
+**49. What will be the output**
 ```js
 let a = {};
 let b = { key: "abc" };
@@ -922,7 +899,7 @@ console.log(a[b]);
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**51. What will be the output of this code?**
+**50. What will be the output of this code?**
 ```js
 function printName(firstName, lastName) {
     firstName = "Aman";
@@ -943,7 +920,7 @@ console.log(name)
 
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
-**52. What will be the output of this code?**
+**51. What will be the output of this code?**
 ```js
 let x = true + false; 
 let y = x + 1;
